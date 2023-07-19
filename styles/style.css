@@ -176,5 +176,113 @@ header{
     opacity: 1;
 }
 
+.instant-container{
+    padding: 0 240px 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.download-left{
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    row-gap: 24px;
+}
+.download-left h3{
+    font-size: 2em;
+}
+
+  
+  .download-right{
+    position: relative;
+  }
+
+  #play-games-img2{
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    bottom: -30%;
+    left: -20%; 
+
+  }
+
+  .games-category-section{
+    padding: 120px 240px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 24px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+  .games-choice{
+    border-radius: 50px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    padding: 10px 20px;
+    background: white;
+    transition: color 0.5s;
+    font-weight: bold;
+    border: 2px solid white;
+
+  }
+
+  .games-choice:hover{
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+  }
+
+  footer{
+    color: white;
+    background-color: #0B0223;
+    padding: 120px 240px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
+
+  }
+
+  .footer-title{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+  }
+
+  .footer-container, .footer-icons{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    column-gap: 24px;
+    row-gap: 24px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .footer-menu{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 24px;
+    row-gap: 24px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.60);
+  }
+
+  footer a{
+    color: #FFF;
+    font-size: 1.125em;
+  }
+
+  .copyright{
+    color: rgba(255, 255, 255, 0.60);
+  }
 
     
