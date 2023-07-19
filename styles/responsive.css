@@ -127,19 +127,22 @@
    .games-category-section, footer{
         padding: 50px 50px;  
     }
-     .games-choice{
+       .games-choice{
         flex-direction: column;
     }  
-
-
+    .games-choice img{
+        width: 30px;
+    } 
 
     .footer-container, .footer-icons{
         grid-template-columns: repeat(3, auto);
+        
 
     }
 
     .footer-menu{
         grid-template-columns: repeat(2, auto);
+        
     }
     
 }
