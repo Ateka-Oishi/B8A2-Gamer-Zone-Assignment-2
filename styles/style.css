@@ -24,6 +24,7 @@ a{
 p{
     font-size: 18px;
     line-height: 30px;
+    color: #534C64;
 }
 
 header{
@@ -63,8 +64,7 @@ header{
 
 .banner-section-left h1{
     font-size: 4em;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
+    
 }
 
 .icons{
@@ -124,3 +124,57 @@ header{
 .gamer-section-right p{
     text-align: right;
 }
+
+.online-videos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 240px;
+    row-gap: 16px;
+}
+.online-videos h2{
+    font-size: 2em;
+    text-align: center;
+}
+.cards-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    column-gap: 24px;
+}
+
+.card-view{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    position: relative;
+    cursor: pointer;
+}
+
+.watch{
+    width: calc(100% - 10px);
+    height: calc(100% - 92px);
+    border: 5px solid #F948B2;
+    border-radius: 16px;
+    position: absolute;
+    display: flex;
+    opacity: 0;
+    transition: opacity 1s;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+.watch h3{
+    color: #F948B2;
+}
+
+.card-view:hover .watch{
+    opacity: 1;
+}
+
+
+    
