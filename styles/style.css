@@ -1,17 +1,19 @@
+/* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans&family=Work+Sans:wght@400;700;800&display=swap');
 
 /* universal selectors */
 *{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 /* body */
 body{
     font-family: 'Work Sans', sans-serif;;
 }
-
+/* common styles */
 
 .button{
-    padding: 20px 40px;
+    padding: 15px 20px;
     border-radius: 48px;
     color: white;
     background: #FF42A5;
@@ -33,10 +35,36 @@ header{
     align-items: center;
     padding: 20px 240px;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-}
+} 
+
+/* nav styles */
+.nav-left{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+  
+  .nav-left h3 {
+    font-size: 4em;
+  }
+  .nav-right{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+  }
+  
+  .follow-us {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 24px;
+  }
+  
 
 
-/* banner styles */
+/* banner styles starts */
 .banner-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -65,11 +93,12 @@ header{
 .banner-section-left h1{
     font-size: 4em;
     
+    
 }
 
 .icons{
     display: flex;
-    column-gap: 10px;
+    flex-direction: column;
     row-gap: 8px;
 }
 
@@ -83,9 +112,14 @@ header{
     column-gap: 15px;
 }
 
-#btn-blue{
-    background: #4EC5F7;;
+#button-blue{
+    padding: 15px 20px;
+    background: #4EC5F7;
 }
+
+/* banner styles ends */
+
+/* Online Games styles */
 
 .gamer{
     padding: 95px 240px;
@@ -207,6 +241,7 @@ header{
     left: -20%; 
 
   }
+  /* games categories styles */
 
   .games-category-section{
     padding: 120px 240px;
@@ -220,7 +255,7 @@ header{
 }
   .games-choice{
     border-radius: 50px;
-    width: max-content;
+    width: min-content;
     display: flex;
     align-items: center;
     column-gap: 16px;
@@ -236,6 +271,8 @@ header{
     border: 2px solid #FF42A5;
     color: #FF42A5;
   }
+
+  /* footer styles starts */
 
   footer{
     color: white;
@@ -284,5 +321,5 @@ header{
   .copyright{
     color: rgba(255, 255, 255, 0.60);
   }
-
+/* footer styles ends */
     
