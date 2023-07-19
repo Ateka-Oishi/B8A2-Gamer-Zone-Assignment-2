@@ -1,7 +1,81 @@
 /* device breakpoints */
 
 /* for tablet device */
-@media screen (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .button{
+        padding: 20px 20px;
+    }
+
+    header{
+        padding: 50px 50px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .banner-section-left{
+        padding: 50px 50px;
+        background-size: 100% 100%;
+    }
+    .banner-section-right{
+        margin: 0 50px;
+        justify-content: center;
+    }
+
+    .gamer{
+        padding: 50px 50px;
+        grid-template-columns: 1fr;
+    }
+    .gamer-section-right{
+        align-items: center;
+    }
+    .gamer-section-right p{
+        text-align: center;
+
+    }
+
+    .online-videos{
+        padding: 50px 50px;
+
+    }
+
+    .cards-section{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+    }
+    .instant-container{
+        padding: 0 50px 150px;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .download-left{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+     #play-games-img2{
+        left: 25%;
+    }
+
+    footer, 
+    .games-category-section{
+        padding: 50px 50px;
+
+    }
+    .games-choice{
+        flex-direction: column;
+    }
+    .footer-container, 
+    .footer-icons {
+        grid-template-columns: repeat(3, auto);
+        column-gap: 48px;
+    }
+
+    .footer-menu{
+        grid-template-columns: repeat(2, auto);
+        column-gap: 48px;
+    }
     
 }
 
@@ -74,6 +148,9 @@
 
     .games-category-section, footer{
         padding: 50px 50px;  
+    }
+    .games-choice{
+        flex-direction: column;
     }
 
     .footer-container, .footer-icons{
