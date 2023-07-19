@@ -21,7 +21,6 @@
         justify-content: center;
     }
 
-
     .online-videos{
         padding: 50px 50px;
 
@@ -125,12 +124,14 @@
 
     }
 
-    .games-category-section, footer{
-        padding: 50px 50px;  
+   .games-category-section, footer{
+        padding: 10px 10px;  
     }
      .games-choice{
         flex-direction: column;
-    } 
+    }  
+
+
 
     .footer-container, .footer-icons{
         grid-template-columns: repeat(3, auto);
