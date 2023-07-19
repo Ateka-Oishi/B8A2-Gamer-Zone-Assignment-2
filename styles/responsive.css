@@ -21,17 +21,6 @@
         justify-content: center;
     }
 
-    .gamer{
-        padding: 50px 50px;
-        grid-template-columns: 1fr;
-    }
-    .gamer-section-right{
-        align-items: center;
-    }
-    .gamer-section-right p{
-        text-align: center;
-
-    }
 
     .online-videos{
         padding: 50px 50px;
@@ -109,16 +98,6 @@
         justify-content: center;
     }
 
-    .gamer{
-        padding: 50px 50px;
-        grid-template-columns: 1fr;
-    }
-    .gamer-section-right{
-        align-items: center;
-    }
-    .gamer-section-right p{
-        text-align: center;
-    }
 
     .online-videos{
         padding: 50px 50px;
