@@ -216,7 +216,7 @@ header{
 }
   .games-choice{
     border-radius: 50px;
-    width: min-content;
+    width: max-content;
     display: flex;
     align-items: center;
     column-gap: 16px;
