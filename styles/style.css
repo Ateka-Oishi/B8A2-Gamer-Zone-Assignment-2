@@ -204,7 +204,7 @@ header{
   }
   /* games categories styles */
 
-  .games-category-section{
+   .games-category-section{
     padding: 120px 240px;
     display: flex;
     flex-wrap: wrap;
@@ -213,10 +213,13 @@ header{
     column-gap: 24px;
     row-gap: 24px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-}
-  .games-choice{
+} 
+
+
+
+    .games-choice{
     border-radius: 50px;
-    width: max-content;
+    width: min-content;
     display: flex;
     align-items: center;
     column-gap: 16px;
@@ -226,7 +229,7 @@ header{
     font-weight: bold;
     border: 2px solid white;
 
-  }
+  } 
   
   .games-choice:hover{
     border: 2px solid #FF42A5;
