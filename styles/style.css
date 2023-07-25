@@ -198,8 +198,8 @@ header{
     width: 50%;
     height: 60%;
     position: absolute;
-    bottom: -30%;
-    left: -20%; 
+    bottom: -15%;
+    left: -15%; 
 
   }
   /* games categories styles */
@@ -219,7 +219,7 @@ header{
 
     .games-choice{
     border-radius: 50px;
-    width: min-content;
+    width: max-content;
     display: flex;
     align-items: center;
     column-gap: 16px;
