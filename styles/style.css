@@ -79,7 +79,7 @@ header{
     display: flex;
     flex-direction: column;
     row-gap: 25px;
-    background-image: url('/images/Group\ 14.png');  
+    background-image: url('../images/Group\ 14.png');  
     background-size: 100%;
     background-repeat: no-repeat;
 
